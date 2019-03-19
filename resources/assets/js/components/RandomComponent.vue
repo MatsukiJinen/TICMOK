@@ -1,6 +1,6 @@
 <template>
   <el-container>
-  <el-aside width="25%" height="100vh">
+  <el-aside width="20%" height="100vh">
       <img src="../../../img/Tic Moklogo.png" alt="">
     <div class="aside">
       <!-- ファイル数　-->
@@ -224,7 +224,7 @@
        </div>
       </div>  
       <div v-if=" showcontent" class="alert" id="modal-overlay-contnet">
-        <div class="alertCenter">
+        <div class="alertCenter" style="margin-top: 15vh">
           <!-- <div class="alertcontent"> -->
            <div class="balloon2-left flash3">
             <img src="../../../img/randomgenerater.png" alt="">1
@@ -245,7 +245,7 @@ import Header from './randomComponents/Header.vue'
 import ElementDraggable from './randomComponents/ElementDraggable.vue'
 import Footer from './randomComponents/Footer.vue'
 import ElementFormItem from './randomComponents/ElementFormItem.vue'
-import NaviHeader from './NaviHeader.vue'
+// import NaviHeader from './NaviHeader.vue'
 
   export default {
     mounted(){
@@ -261,7 +261,7 @@ import NaviHeader from './NaviHeader.vue'
            'el-draggable':ElementDraggable,
            'footer-app':Footer,
            'el-form-item':ElementFormItem,
-           'navi-header':NaviHeader
+           // 'navi-header':NaviHeader
       },
     data() {
       return {
@@ -469,13 +469,13 @@ h3 {
   position:fixed;
   top: -50px;
   right:0;
-  width:75%;
+  width:80%;
   height:120%;
   background-color:rgba(0,0,0,0.75);
 }
 
 .css-fade2 {
-  margin-top: 130px;
+  margin-top: 200px;
 }
 
 .balloon2-left {

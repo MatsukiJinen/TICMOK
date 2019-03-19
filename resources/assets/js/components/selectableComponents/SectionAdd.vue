@@ -74,6 +74,7 @@ li {
    border-bottom: 2px solid #00000038;
    width: 80%;
    margin: 0 auto;
+   height: 80px;
 }
 
 img {

@@ -9,7 +9,7 @@
     </section-app>
   </el-aside>
   <el-container>
-    <div style="height: 23vh">
+    <div style="height: 22vh">
       <img src="../../../img/header.png" alt="">
     </div>
     <el-header style="height: 8vh; border-bottom: 3px solid #000; border-top: 2px solid #000;">
@@ -76,7 +76,7 @@ import Chance from 'chance'
 import {v4} from 'uuid';
 import Elementdraggable from './selectableComponents/Elementdraggable.vue'
 import SectionAdd from './selectableComponents/SectionAdd.vue'
-import NaviHeader from './NaviHeader.vue'
+// import NaviHeader from './NaviHeader.vue'
 
   export default {
     mounted() {
@@ -93,7 +93,7 @@ import NaviHeader from './NaviHeader.vue'
     components: {
         'el-draggable':Elementdraggable,
         'section-app':SectionAdd,
-        'navi-header':NaviHeader
+        // 'navi-header':NaviHeader
     },
     data() {
       return {
@@ -251,8 +251,7 @@ import NaviHeader from './NaviHeader.vue'
       }
     }
   }
-
-   
+ 
 
 </script>
 
@@ -586,7 +585,7 @@ img {
 }
 
 .alertCenter {
-  margin-top: 10vh;  /* 変更 */
+  margin-top: 15vh;  /* 変更 */
 }
 
 .css-fade2{

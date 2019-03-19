@@ -18,19 +18,19 @@
        <el-main>
         <el-carousel  arrow="always" class="carousel">
           <el-carousel-item style="height: 300px;">
-           <div class="carousel_mac">
-            <img src="../../../img/mac.png">
+           <div class="carousel_mac" style="width: 65%; margin:0 auto">
+            <img src="../../../img/mac.png" style="width: 85%; margin-left: 50px;">
             </div>
           </el-carousel-item>
            <el-carousel-item>
            <div class="carousel_tablet">
-            <img src="../../../img/tablet.png">
+            <img src="../../../img/tablet.png" style="width: 80%;margin-left: 50px;">
           </div>
           </el-carousel-item>
             <el-carousel-item >
            <div class="carousel_iphone">
            <div class="iphoneContainer">
-            <img src="../../../img/iphone.png">
+            <img src="../../../img/iphone.png" style="width: 30%;margin-left: 220px;">
            </div>
            </div>
           </el-carousel-item>
@@ -80,7 +80,7 @@ export default {
   width: 75%;
   margin: 0 auto;
   height: auto;
-  margin-top: 180px;
+  margin-top: 250px;
 }
 
 h1 {
@@ -111,7 +111,7 @@ h3 {
 a.cp_btn {
   display: inline-block;
   text-decoration:none;
-  width: 250px;
+  width: 200px;
   padding: 0.8em;
   text-align: center;
   color: #FFF;
@@ -131,10 +131,10 @@ a.cp_btn span {
 a.cp_btn:hover span {
   transform: rotateX(360deg);
 }
-
+/* 
 img {
-  width: 100%;
-}
+  width: 90%;
+} */
 
 .icon {
   width: 3%;
@@ -145,7 +145,7 @@ img {
 }
 
 .carousel {
-  height: 50vh;
+  height: 38vh;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -158,29 +158,28 @@ img {
   height: 400px;
 }
 
-.carousel_mac {
-  width: 90%;
-  margin:  0 auto;
-}
-
 .carousel_tablet,
-.carousel_mac,
 .carousel_iphone {
   width: 70%;
   margin: 0 auto;
 }
 
-.iphoneContainer {
+.el-carousel__arrow i {
+  margin-top: 200px;
+}
+
+. {
   width: 50%;
   margin: 0 auto;
 }
 
 .carousel_iphone img {
-  width: 90%;
+  width: 45%;
+  margin-left: 140px
 }
 
 .el-carousel__item {
-  height: 400px;
+  height: 700px;
 }
 
 
